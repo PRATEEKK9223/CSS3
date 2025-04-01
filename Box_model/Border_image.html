@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border-Image</title>
+       <style>
+        #img1
+            {
+                margin-left:150px;
+                margin-top:50px;
+                border: 100px solid transparent;
+                border-image:url(image.png) 13% 17% 14% 15%;
+            }
+            #img2{
+                margin-left:500px;
+                margin-top:100px;
+                border:50px solid white;
+                border-image:url(frame1.jpg)10% 20% 30% 40%;
+            }
+            div{
+                margin-left:150px;
+                margin-top:50px;
+                font-size: 30px;
+                color:blue;
+                text-align: center;
+                border:50px solid white;
+                border-image-source:url(border.png);
+                border-image-slice: 10% 20% 30% 40%;
+            }
+
+       </style>
+    </head>
+    <body>
+        <img id="img1" src="image.png" alt="Image cannot be loaded"></img><br><br><br>
+        <img id="img2" src="image.png" alt="Image cannot be loaded"></img>
+        <div>Thank you</div>
+    </body>
+</html>

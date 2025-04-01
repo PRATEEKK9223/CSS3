@@ -1,0 +1,15 @@
+@font-face{
+    font-family:"myfont";
+    src:url("blackjack.otf");
+}
+
+h1{
+    font-size: large;
+    text-decoration: overline;
+    font-family: myfont;
+
+}
+p{
+    font-size: large;
+    font-family: myfont;
+}
