@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.grid-container{
+    background-color: gray;
+    display:grid;
+    grid-template-columns:1fr 2fr 3fr;
+    grid-template-rows:50px 50px;
+    gap:30px;
+    justify-items: stretch;
+    justify-items:start;
+    justify-items:end;
+    justify-items:center;/*here latest style browser will choose that is center*/
+
+    align-items: stretch;
+    align-items: start;
+    align-items:end;
+    align-items: center;  
+}
+
+.one{
+    background-color:lightcoral; 
+}
+
+.two{
+    background-color:lightblue; 
+}
+.three{
+    background-color:lightgoldenrodyellow; 
+}
+.four{
+    background-color:coral; 
+}
+.five{
+    background-color:lightgreen; 
+}
+.six{
+    background-color: lightpink;
+}
