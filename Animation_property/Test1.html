@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 2px solid black;
+            width:500px;
+            height:500px;
+            text-align:center;
+            font-size:50px;
+            animation: first 10s linear;
+        }
+        @keyframes first{
+            from{text-shadow:10px 10px 4px red;}
+            to{text-shadow:-10px -10px 5px blue ;}
+        }
+
+        button{
+    display: block;
+    background-color: blue;
+    border-radius:20px 20px 20px 20px;
+    color: white;
+    width:200px;
+    height: 50px;
+    margin-top:50px;
+    margin-left:100px;
+    font-size: 20px;
+   
+}
+@keyframes second{
+    from{
+        transform:rotate(360deg);
+        transform: scale(2);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+button:hover{
+    animation:second 5s linear 1s 3;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>PRATEEK k</td>
+                <td>SHIVAMOGGA</td>
+            </tr>
+           
+        </table>
+        <button type="submit">LOgin</button>
+    </div>
+</body>
+</html>
